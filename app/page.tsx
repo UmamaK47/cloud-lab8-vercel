@@ -13,6 +13,12 @@ export default function Home() {
       <p>Name: {name}</p>
 
       <p>Roll: 01-131232-107</p>
+      <ul>
+        <li>Docker</li>
+        <li>LocalStack</li>
+        <li>Terraform</li>
+        <li>Vercel</li>
+      </ul>
     </main>
   );
 }
