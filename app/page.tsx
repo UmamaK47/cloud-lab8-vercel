@@ -1,3 +1,5 @@
+const name = process.env.NEXT_PUBLIC_STUDENT_NAME;
+
 export default function Home() {
   return (
     <main
@@ -8,7 +10,7 @@ export default function Home() {
     >
       <h1>Lab 8 — Vercel Deployment</h1>
 
-      <p>Name: Umama Khan</p>
+      <p>Name: {name}</p>
 
       <p>Roll: 01-131232-107</p>
     </main>
